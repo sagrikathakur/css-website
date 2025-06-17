@@ -333,7 +333,41 @@ color: grey;
   100% { opacity: 0; }
 }
 
+/* features */
+.feat-1{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.left-feat{
+  height: 60vh;
+  width:41vw;
+  border-radius: 12px;
+  
+}
+.left-feat img{
+  width: 41vw;
+  height: 40vh;
+}
+.graph{
+  font-weight: 700;
+  margin: 40px 0px ;
+  font-size: x-large;
+}
+.graph-1{
+  color: #b0b0b0;
+}
 
+
+.right-feat{
+   height: 60vh;
+  width:41vw;
+  border-radius: 12px;
+}
+.right-feat img{
+  width: 41vw;
+  height: 40vh;
+}
 
 
 
