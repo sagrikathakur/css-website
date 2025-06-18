@@ -4,6 +4,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+    word-break: break-word;
+
 }
 
 body {
@@ -500,5 +502,69 @@ color: grey;
 
   .banner-container {
     padding: 0.5rem 0;
+  }
+}
+@media (max-width: 768px) {
+  .feat-1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .left-feat, .right-feat {
+    width: 90vw;
+    height: auto;
+  }
+
+  .left-feat img,
+  .right-feat img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .feep {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .graph {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+
+  .graph-1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .fade {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .fade-right {
+    align-items: center;
+  }
+
+  .fade-text {
+    font-size: 1rem;
+    white-space: normal;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .buttons {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .badges {
+    gap: 0.8rem;
+  }
+
+  .badge img {
+    height: 25px;
   }
 }
