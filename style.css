@@ -13,6 +13,9 @@ body {
   color: white;
   text-align: center;
 }
+body::-webkit-scrollbar{
+  display: none;
+}
 
 a {
   text-decoration: none;
@@ -417,6 +420,23 @@ color: grey;
     transform: rotate(360deg);
   }
 }
+/* documentation */
+
+.doc{
+  background-image: url(dot.png);
+  height: 500px;
+  text-align: left;
+  
+}
+.code{
+  display: block;
+height: 100%;
+ border-radius: inherit;
+  width:100%;
+  object-fit: cover;
+  object-position: center center;
+}
+/* map */
 
 
 
@@ -452,12 +472,7 @@ color: grey;
 
 
 
-
-
-
-
-
-
+/* responsive */
 
 @media (max-width: 768px) {
   .navbar {
