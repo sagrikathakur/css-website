@@ -420,6 +420,168 @@ color: grey;
     transform: rotate(360deg);
   }
 }
+
+.ani-container{
+  background-color: #1c1c1c;
+  height: 60vh;
+  width: 90vw;
+  margin-top: 6rem;
+  padding: 23px 12px;
+  margin: 40px 40px ;
+  border-radius: 12px;
+  
+}
+ .fefa{
+  margin-top: 6rem;
+  font-size: 68px;
+  font-weight: 400;
+  font-family: sans-serif;
+} 
+.ani-img img{
+  height: 50px;
+  margin: 36px;
+  background: #2e2d2d;
+  width:178px;
+border-radius: 50px;
+}
+.ani-img p{
+   margin-top: 4rem;
+  color: #b0b0b0;
+}
+.ani2-img p{
+  margin-top: 4rem;
+  color: #b0b0b0;
+}
+
+/* payment */
+.payment-container{
+    margin-top:6rem;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.po{
+  height: 90px;
+  border: none;
+
+}
+
+/* animated text */
+.hero1{
+  margin-top: 9rem;
+    
+
+}
+.dede{
+  font-size: 19px;
+  font-weight: 500;
+}
+
+/* box-animation */
+.scroll-wrapper {
+  overflow: hidden;
+  width: 100%;
+  background: #000;
+}
+
+.dark-container {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 30s linear infinite;
+}
+
+.scroll-wrapper:hover .dark-container {
+  animation-play-state: paused;
+}
+
+.dark-box {
+  width: 350px;
+  background: #1e1e1e;
+  color: #fff;
+  padding: 15px;
+  margin-right: 20px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  text-align: center;
+}
+.dark-box p{
+  color: #9b9b9b;
+  font-size: 19px;
+
+  margin: 20px;
+  padding: 12px;
+}
+.dark-box h1{
+font-size: 20px;
+text-align: center;
+}
+.dark-box img {
+  width: 70%;
+  border-radius: 5px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* testimonial */
+.testimonial-grid-section {
+  background: #222222;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 per row */
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial-box {
+  background: #484848;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.testimonial-box:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-box img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.testimonial-box p {
+  font-size: 14px;
+  color: #b7b4b4;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.testimonial-box h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* form */
+
+
 /* documentation */
 
 .doc{
